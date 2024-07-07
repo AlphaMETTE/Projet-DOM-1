@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .cart-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .cart-item .name {
+            flex: 2;
+        }
+        .cart-item .price {
+            flex: 1;
+        }
+        .cart-item .quantity {
+            flex: 1;
+            text-align: center;
+        }
+        .cart-item button {
+            margin: 0 5px;
+        }
+        .cart-item .like.liked {
+            color: red;
+        }
+        .total-container {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Votre Panier</h1>
+    <div id="cart">
+        <div class="cart-item" data-price="10">
+            <span class="name">Article 1</span>
+            <span class="price">10€</span>
+            <button class="minus">-</button>
+            <span class="quantity">1</span>
+            <button class="plus">+</button>
+            <button class="remove">Supprimer</button>
+            <button class="like">❤️</button>
+        </div>
+        <div class="cart-item" data-price="15">
+            <span class="name">Article 2</span>
+            <span class="price">15€</span>
+            <button class="minus">-</button>
+            <span class="quantity">1</span>
+            <button class="plus">+</button>
+            <button class="remove">Supprimer</button>
+            <button class="like">❤️</button>
+        </div>
+        <div class="cart-item" data-price="20">
+            <span class="name">Article 3</span>
+            <span class="price">20€</span>
+            <button class="minus">-</button>
+            <span class="quantity">1</span>
+            <button class="plus">+</button>
+            <button class="remove">Supprimer</button>
+            <button class="like">❤️</button>
+        </div>
+        <div class="cart-item" data-price="25">
+            <span class="name">Article 4</span>
+            <span class="price">25€</span>
+            <button class="minus">-</button>
+            <span class="quantity">1</span>
+            <button class="plus">+</button>
+            <button class="remove">Supprimer</button>
+            <button class="like">❤️</button>
+        </div>
+    </div>
+    <div class="total-container">
+        <span>Total: </span>
+        <span id="total">70€</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
