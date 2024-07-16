@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     totalDisplay.textContent = `${total}€`;
   }
+  
 
   // Gestion des boutons "+"
   cart.addEventListener("click", (event) => {
