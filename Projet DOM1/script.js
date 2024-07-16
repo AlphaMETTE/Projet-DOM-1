@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       updateTotal();
     }
   });
+  
 
   // Gestion des boutons "-"
   cart.addEventListener("click", (event) => {
