@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   
 
+
   // Gestion des boutons "+"
   cart.addEventListener("click", (event) => {
     if (event.target.classList.contains("plus")) {
