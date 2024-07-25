@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
       updateTotal();
     }
   });
-  
   // Gestion des boutons "-"
   cart.addEventListener("click", (event) => {
     if (event.target.classList.contains("minus")) {
