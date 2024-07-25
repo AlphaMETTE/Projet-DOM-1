@@ -49,7 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
       event.target.classList.toggle("liked");
     }
   });
-
   // Initialiser le prix total
   updateTotal();
 });
