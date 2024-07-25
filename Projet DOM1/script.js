@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const totalDisplay = document.getElementById("total");
 
   // Mettre à jour le prix total
+  
   function updateTotal() {
     let total = 0;
     document.querySelectorAll(".cart-item").forEach((item) => {
