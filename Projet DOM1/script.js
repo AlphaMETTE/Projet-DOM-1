@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
       total += price * quantity;
     });
     totalDisplay.textContent = `${total}€`;
-    
   }
   // Gestion des boutons "+"
   cart.addEventListener("click", (event) => {
