@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
       quantityElement.textContent = parseInt(quantityElement.textContent) + 1;
       updateTotal();
     }
-    
   });
   // Gestion des boutons "-"
   cart.addEventListener("click", (event) => {
